@@ -21,7 +21,6 @@ class WelcomeScreen extends Component {
     if (token) {
       this.props.navigation.navigate('map');
       this.setState({ token });
-      
     }  else { 
       this.setState({ token: false });
     }
